@@ -31,12 +31,8 @@ body {
 }
 
 .hero:after {
-	background: linear-gradient(
-		0deg,
-		rgba(0, 0, 0, 0.6) 0%,
-		rgba(0, 212, 255, 0) 75%
-	);
-	content: "";
+	background: linear-gradient(0deg,rgba(0, 0, 0, 0.6) 0%,rgba(0, 212, 255, 0) 75%);
+	
 	height: 100%;
 	left: 0;
 	position: absolute;
