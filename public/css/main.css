@@ -18,7 +18,7 @@ body {
 
 .hero {
 	background-attachment: fixed;
-	background-image: url(../img/capa-madmax2.jpg);
+	background-image: url(../img/ultimato.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -116,7 +116,7 @@ body {
 }
 
 .hero-titulo {
-	color: #fff;
+	color: yellow;
 	font-size: 6.5em;
 	font-weight: bold;
 	line-height: 1.2em;
@@ -239,7 +239,7 @@ body {
 
 .filme-poster img {
 	width: 100%;
-	height: auto;
+	height: 340px;
 }
 
 .filme-poster-info {
@@ -286,6 +286,7 @@ body {
 .filme-sinopse {
 	padding: 10px;
 	width: 100%;
+	height: 111px;
 }
 
 .filme-sinopse-titulo {
