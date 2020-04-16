@@ -32,7 +32,6 @@ body {
 
 .hero:after {
 	background: linear-gradient(0deg,rgba(0, 0, 0, 0.6) 0%,rgba(0, 212, 255, 0) 75%);
-	
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -76,7 +75,12 @@ body {
 	transition: all 0.2s ease-in-out;
 }
 
-.hero-lista-item a:hover {
+.hero-lista-item a:hover,
+.hero-genero-item:hover,
+.filme-poster-link:hover,
+.catalogo-menu-lista-item a,
+.sinopse-genero-item,
+.filme-poster-info h3{
 	color: #e4bb23;
 }
 
@@ -138,10 +142,6 @@ body {
 	transition: all 0.2s ease-in-out;
 }
 
-.hero-genero-item:hover {
-	color: #e4bb23;
-}
-
 .hero-botao {
 	display: inline-block;
 	padding: 15px 50px;
@@ -199,7 +199,6 @@ body {
 }
 
 .catalogo-menu-lista-item a {
-	color: #e4bb23;
 	display: inline-block;
 	padding: 25px 0;
 }
@@ -267,7 +266,6 @@ body {
 }
 
 .filme-poster-info h3 {
-	color: #e4bb23;
 	font-size: 2em;
 	line-height: 1em;
 	text-transform: uppercase;
@@ -277,10 +275,6 @@ body {
 	color: #fff;
 	font-size: 5em;
 	transition: all 0.2s ease-in-out;
-}
-
-.filme-poster-link:hover {
-	color: #e4bb23;
 }
 
 .filme-sinopse {
@@ -304,7 +298,6 @@ body {
 .sinopse-genero-item {
 	text-decoration: none;
 	font-size: 1.2em;
-	color: #e4bb23;
 }
 
 .sinopse-genero-item:hover {
